@@ -1,0 +1,12 @@
+{
+	"name": "sibwive",
+	"authors": [
+		"atnanasi"
+	],
+	"dependencies": {
+		"vibe-d": "~>0.7.29"
+	},
+	"description": "Simple blog engine written in Vibe.d",
+	"copyright": "Copyright © 2016, atnanasi",
+	"license": "MIT"
+}
