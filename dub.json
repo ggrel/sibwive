@@ -8,5 +8,9 @@
 	},
 	"description": "Simple blog engine written in Vibe.d",
 	"copyright": "Copyright © 2016, atnanasi",
-	"license": "MIT"
+	"license": "MIT",
+	"versions": [
+		"VibeDefaultMain"
+	],
+	"stringImportPaths": "./config/"
 }

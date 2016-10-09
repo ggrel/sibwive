@@ -1,0 +1,8 @@
+doctype html
+html
+    head
+        title Example page
+    body
+        h1 Example hogehoge
+        p hogehogepiyopiyo
+        p #{req}

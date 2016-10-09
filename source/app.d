@@ -1,6 +1,12 @@
-import std.stdio;
+import vibe.d;
+import sibwive.index;
 
-void main()
-{
-	writeln("Edit source/app.d to start your project.");
+shared static this() {
+	auto router = new URLRouter;
+	router.get("/", &index);
+
+	auto settings = new HTTPServerSettings;
+	settings.port = 8080;
+
+	listenHTTP(settings, router);
 }
