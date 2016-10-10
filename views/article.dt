@@ -1,0 +1,7 @@
+doctype html
+html
+    head
+        title #{config_user["blog_name"].str()}
+    body
+        h1 #{config_user["blog_name"].str()}
+        p article
