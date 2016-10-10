@@ -1,4 +1,4 @@
 {
-    "dbAddress": "mongodb://localhost/",
+    "dbAddress": "mongodb://127.0.0.1/",
     "dbCollection": "db.sibwive"
 }
