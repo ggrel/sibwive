@@ -11,7 +11,7 @@ shared static this() {
 
 	//Connection to MongoDB
 	auto client = connectMongoDB(config_system["dbAddress"].str());
-	auto collection = client.getCollection(config_system["dbCollection"].str());
+	//auto collection = client.getCollection(config_system["dbCollection"].str());
 
 	auto router = new URLRouter;
 	router.get("/", (HTTPServerRequest req, HTTPServerResponse res){index(req,res,config_system,config_user,collection);});
