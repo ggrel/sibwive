@@ -1,4 +1,4 @@
-[![][mit-badge]][mit] [![][Build Status]]()
+[![][mit-badge]][mit] [![][Build Status]][travisci]
 
 # sibwive
 Simple blog engine written in Vibe.d
