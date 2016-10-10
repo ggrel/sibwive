@@ -1,4 +1,4 @@
-[![][mit-badge]][mit]
+[![][mit-badge]][mit] [![][Build Status]]()
 
 # sibwive
 Simple blog engine written in Vibe.d
@@ -17,3 +17,6 @@ Released under the [MIT License][mit]
 
 [mit]:https://opensource.org/licenses/MIT
 [mit-badge]:https://img.shields.io/badge/license-MIT-444444.svg?style=flat-squrare
+
+[Build Status]:https://travis-ci.org/atnanasi/sibwive.svg?branch=master
+[travisci]:https://travis-ci.org/atnanasi/sibwive
