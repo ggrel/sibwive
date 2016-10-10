@@ -3,3 +3,6 @@ d:
     - dmd
     - ldc
 
+services:
+    - mongodb
+    
