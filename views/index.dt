@@ -1,8 +1,8 @@
 doctype html
 html
     head
-        title Example page
+        title #{config_user["blog_name"].str()}
     body
-        h1 Example hogehoge
+        h1 #{(config_user["blog_name"].str()}
         p hogehogepiyopiyo
         p 
