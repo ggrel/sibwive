@@ -4,3 +4,4 @@ __dummy.html
 *.o
 *.obj
 /sibwive
+/__test__library__
