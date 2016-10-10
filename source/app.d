@@ -9,7 +9,7 @@ shared static this() {
 	JSONValue config_user = parseJSON(chomp(readText("config/user.json")));
 
 	auto router = new URLRouter;
-	router.get("/", (res,req){index(req,res,config_system,config_user);});
+	router.get("/", (HTTPServerRequest req, HTTPServerResponse res){index(req,res,config_system,config_user);});
 
 	auto settings = new HTTPServerSettings;
 	settings.port = 8080;
