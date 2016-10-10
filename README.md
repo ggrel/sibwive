@@ -1,6 +1,7 @@
+[![][mit-badge]][mit]
+
 # sibwive
 Simple blog engine written in Vibe.d
-[![][mit-badge]][mit]
 
 ## How to build
 ```
@@ -11,6 +12,7 @@ dub run
 
 ## License and copyright
 sibwive - Copyright (c) 2016 atnanasi
+
 Released under the [MIT License][mit]
 
 [mit]:https://opensource.org/licenses/MIT
