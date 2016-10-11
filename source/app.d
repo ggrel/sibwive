@@ -5,9 +5,12 @@ import std.file;
 import sibwive.index;
 import sibwive.article;
 
+JSONValue config_system;
+JSONValue config_user;
+
 shared static this() {
-	JSONValue config_system = parseJSON(chomp(readText("config/system.json")));
-	JSONValue config_user = parseJSON(chomp(readText("config/user.json")));
+	config_system = parseJSON(chomp(readText("config/system.json")));
+	config_user = parseJSON(chomp(readText("config/user.json")));
 
 	//Connection to MongoDB
 	auto client = connectMongoDB(config_system["dbAddress"].str());
