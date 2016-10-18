@@ -1,7 +1,11 @@
 doctype html
 html
-    head
-        title #{config_user["blog_name"].str()}
-    body
-        h1 #{config_user["blog_name"].str()}
-        p #{article}
+	head
+		title #{config_user["blog_name"].str()}
+	body
+		h1 #{config_user["blog_name"].str()}
+		- import std.stdio;
+		- import std.json;
+		- foreach (doc; article)
+			- JSONValue j = parseJSON(doc.toJson.toString);
+			p #{j["text_html"].str()}
