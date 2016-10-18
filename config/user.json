@@ -1,8 +1,8 @@
 {
-    "blog_name": "sibwive",
-    "blog_description": "The simple blog",
+	"blog_name": "sibwive",
+	"blog_description": "The simple blog",
 
-    "admin_name": "sibwive",
-    "admin_mail": "admin@localhost",
-    "admin_url": "http://localhost"
+	"admin_name": "sibwive",
+	"admin_mail": "admin@localhost",
+	"admin_url": "http://localhost"
 }
